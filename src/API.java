@@ -15,16 +15,20 @@ public class API {
     public void obtencionDeApi() {
 
         Scanner lectura = new Scanner(System.in);
-        String moneda = "";
-        String monedaDeCambio = "";
+        String monedaSinConvertir= "";
+        String monedaConvertida = "";
+        double valorAConvertir = 0;
         int opcionDelUsuario = 0;
 
         opcionDelUsuario = lectura.nextInt();
         switch(opcionDelUsuario) {
 
             case 1:
-                moneda = "USD";
-                monedaDeCambio = "ARS";
+
+                valorAConvertir = lectura.nextDouble();
+                monedaSinConvertir = "USD";
+                monedaConvertida = "BRL";
+
         }
 
 
@@ -32,9 +36,11 @@ public class API {
 
 
         try {
+
+            String direccion = "https://v6.exchangerate-api.com/v6/87a9fe6a962c5f3f9504b1de/pair/" + monedaSinConvertir + "/" + monedaConvertida;
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("https://v6.exchangerate-api.com/v6/87a9fe6a962c5f3f9504b1de/pair/USD/BRL"))
+                    .uri(URI.create(direccion))
                     .build();
 
             HttpResponse<String> response = null;
@@ -44,6 +50,9 @@ public class API {
 
             ConversionesDeMonedas conversionDeMoneda = gson.fromJson(json, ConversionesDeMonedas.class);
             Conversion conversion = new Conversion(conversionDeMoneda); //tengo el valor de la moneda
+            var multiplicacion =conversion.valorDeMoneda * valorAConvertir;
+            System.out.println(multiplicacion);
+
 
 
 
