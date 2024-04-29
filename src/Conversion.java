@@ -6,5 +6,7 @@ public class Conversion {
     public Conversion (ConversionesDeMonedas conversionDeMoneda) {
         this.valorDeMoneda = conversionDeMoneda.conversion_rate();
 
+
+        }
     }
-}
+

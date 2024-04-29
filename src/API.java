@@ -8,32 +8,15 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class API {
 
-    public void obtencionDeApi() {
 
-        Scanner lectura = new Scanner(System.in);
-        String monedaSinConvertir= "";
-        String monedaConvertida = "";
-        double valorAConvertir = 0;
-        int opcionDelUsuario = 0;
-
-        opcionDelUsuario = lectura.nextInt();
-        switch(opcionDelUsuario) {
-
-            case 1:
-
-                valorAConvertir = lectura.nextDouble();
-                monedaSinConvertir = "USD";
-                monedaConvertida = "BRL";
-
-        }
-
+    public void obtencionDeApi(String monedaSinConvertir , String monedaConvertida, double valorAConvertir) {
 
         Gson gson = new Gson();
-
 
         try {
 
@@ -49,16 +32,10 @@ public class API {
             String json = response.body();
 
             ConversionesDeMonedas conversionDeMoneda = gson.fromJson(json, ConversionesDeMonedas.class);
-            Conversion conversion = new Conversion(conversionDeMoneda); //tengo el valor de la moneda
+            Conversion conversion = new Conversion(conversionDeMoneda);
+            Opciones opciones = new Opciones();
             var multiplicacion =conversion.valorDeMoneda * valorAConvertir;
-            System.out.println(multiplicacion);
-
-
-
-
-
-
-
+            System.out.println("el valor de " + valorAConvertir + " [" + monedaSinConvertir + "] Es igual a " + multiplicacion + " [" + monedaConvertida +"]");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
