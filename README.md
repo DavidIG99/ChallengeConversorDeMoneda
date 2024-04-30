@@ -92,11 +92,11 @@
 
 ## Tecnoligías utilizadas
 
-<a href= "https://docs.oracle.com/en/java/javase/17/docs/api/index.html"> <p> JAVA </p> </a>
+<p> <a href= "https://docs.oracle.com/en/java/javase/17/docs/api/index.html"> JAVA </a> </p>
 
-<a href= "https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1"> <p> Gson.jar </p> </a>
+<p> <a href= "https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1"> Gson.jar </a> </p>
 
-<a href= "https://www.exchangerate-api.com"> <p> API Exchagerate </p> </a>
+<p> <a href= "https://www.exchangerate-api.com"> API Exchagerate </a> </p>
 
 
 
