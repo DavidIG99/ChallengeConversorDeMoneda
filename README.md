@@ -88,7 +88,7 @@
 
 ## Acceso al proyecto
 
-<a href="https://github.com/DavidIG99/ChallengeConversorDeMoneda" > <p> Conversor de moneda </p> </a>
+<p> <a href="https://github.com/DavidIG99/ChallengeConversorDeMoneda" > Conversor de moneda </a> </p>
 
 ## Tecnoligías utilizadas
 
