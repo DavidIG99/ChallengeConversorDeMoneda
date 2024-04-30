@@ -54,7 +54,7 @@
 
 <p> Proyecto terminado, pero podría retomar un estado de "En desarrollo" en el futuro </p>
 
-## Caracteristicas de la aplicación y demostración
+## Caracteristicas de la aplicación
 
  <p> La aplicación consiste en un conversor de moneda. Al iniciar la aplicación se se desplagara un menu que arroja 7 opciones: </p>
 
@@ -86,11 +86,21 @@
 
 <p> "el valor de (Cantidad escrita por el usurio) [Moneda inicial] Es igual a (Cantidad convertida) [Moneda final]" </p>
 
-<div align="center">
+## Acceso al proyecto
 
-![Demostración](https://github.com/DavidIG99/ChallengeConversorDeMoneda/blob/main/Demostración.mov)
+<a href="https://github.com/DavidIG99/ChallengeConversorDeMoneda" > <p> Conversor de moneda </p> </a>
 
-</div>
+## Tecnoligías utilizadas
+
+<a href= "https://docs.oracle.com/en/java/javase/17/docs/api/index.html"> <p> JAVA </p> </a>
+
+<a href= "https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1"> <p> Gson.jar </p> </a>
+
+<a href= "https://www.exchangerate-api.com"> <p> API Exchagerate </p> </a>
+
+
+
+
 
 
 
