@@ -98,7 +98,9 @@
 
 <p> <a href= "https://www.exchangerate-api.com"> API Exchagerate </a> </p>
 
+## Personas-Desarrolladores del Proyecto
 
+<p> <a href="https://github.com/DavidIG99" > David Idarraga Giraldo </a></p>
 
 
 
