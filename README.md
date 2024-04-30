@@ -19,8 +19,6 @@
 
 - [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
-- [Conclusión](#conclusión)
-
 
 ## Descripción del proyecto
 
@@ -54,9 +52,46 @@
 
 ## Estado del proyecto
 
-<p> Proyecto terminado, pero con podría retomar un estado de "En desarrollo" en el futuro </p>
+<p> Proyecto terminado, pero podría retomar un estado de "En desarrollo" en el futuro </p>
 
 ## Caracteristicas de la aplicación y demostración
+
+ <p> La aplicación consiste en un conversor de moneda. Al iniciar la aplicación se se desplagara un menu que arroja 7 opciones: </p>
+
+ <ul> 
+ 
+<li> 1) Dolar =>> Peso Argentino </li>
+<li> 2) Peso Argentino =>> Dolar </li>
+<li> 3) Dolar =>> Real Brasileño </li>
+<li> 4) real Brasileño =>> Dolar </li>
+<li> 5) Dolar =>> Peso Colombiano </li>
+<li> 6) Peso Colombiano =>> Dolar </li>
+<li> 7) Salir </li>
+ 
+ </ul>
+   
+<p> y le pide al usuario ingresar una de ellas, si el usuario ingresa una opción no disponible la aplicación le dirá: </p>
+  
+<p> "Esta opción no esta disponible, por favor digite una opción del 1 al 6 o si desea finalizar la aplicación digite la opción 7" </p>
+
+<p> Ya que a la hora de ingresar un valor de tipo String, la aplicación arrojaba un error, se corrigio esto de manera que al usurio ingresar un valor de tipo String la aplicación le dirá: </p>
+
+<p> "Opcion invalida. por favor digite una opción del 1 al 6 o si desea finalizar la aplicación digite la opción 7" </p>
+
+<p> Se realizo este mismo procedimiento a la hora de que el usuario ingresara el valor a convertir, si esta no era un valor numerico, la aplicación le dirá:</p>
+
+<p> "El valor solicitado es numérico. Escribe un valor numérico para continuar" </p>
+
+<p> Si el usuario escribe todos los datos correctamente la aplición le devolvera: </p>
+
+<p> "el valor de (Cantidad escrita por el usurio) [Moneda inicial] Es igual a (Cantidad convertida) [Moneda final]" </p>
+
+<div align="center">
+
+![Demostración](https://github.com/DavidIG99/ChallengeConversorDeMoneda/blob/main/Demostración.mov)
+
+</div>
+
 
 
 
