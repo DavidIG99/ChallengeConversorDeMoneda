@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8872c63c-746b-489c-aea0-50ee00fc2578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Errores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Opciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Datos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeConversorDeMoneda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeConversorDeMoneda.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/davididarragagiraldo/Library/CloudStorage/OneDrive-Personal/Personal/Alura/Curso 6/ChallengeConversorDeMoneda",
     "project.structure.last.edited": "Modules",
