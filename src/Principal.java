@@ -6,7 +6,8 @@ public class Principal {
 
     Opciones ejecutor = new Opciones();
 
-    ejecutor.opcionesElegibles();
+    ejecutor.1
+    opcionesElegibles();
 
     
 
