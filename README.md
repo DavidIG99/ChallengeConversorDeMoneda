@@ -7,17 +7,17 @@
 
 ### Indice
 
-- [Descripción del proyecto](#descripción-del-proyecto)
+- [Descripción del proyecto](#Descripción-del-proyecto)
 
 - [Estado del proyecto](#Estado-del-proyecto)
 
-- [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+- [Características de la aplicación](#Características-de-la-aplicación)
 
-- [Acceso al proyecto](#acceso-proyecto)
+- [Acceso al proyecto](#Acceso-al-proyecto)
 
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Tecnologías utilizadas](#Tecnologías-utilizadas)
 
-- [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+- [Personas-Desarrolladores del Proyecto](#personas-desarrolladores-del-proyecto)
 
 
 ## Descripción del proyecto
@@ -54,7 +54,7 @@
 
 <p> Proyecto terminado, pero podría retomar un estado de "En desarrollo" en el futuro </p>
 
-## Caracteristicas de la aplicación
+## Características de la aplicación
 
  <p> La aplicación consiste en un conversor de moneda. Al iniciar la aplicación se se desplagara un menu que arroja 7 opciones: </p>
 
@@ -90,7 +90,7 @@
 
 <p> <a href="https://github.com/DavidIG99/ChallengeConversorDeMoneda" > Conversor de moneda </a> </p>
 
-## Tecnoligías utilizadas
+## Tecnologías utilizadas
 
 <p> <a href= "https://docs.oracle.com/en/java/javase/17/docs/api/index.html"> JAVA </a> </p>
 
